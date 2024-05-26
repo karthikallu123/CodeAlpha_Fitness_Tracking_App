@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness Tracker</h1>
+    </header>
+    <main>
+        <section id="login-form">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        <section id="workout-log">
+            <h2>Log Your Workout</h2>
+            <!-- Workout logging form will go here -->
+        </section>
+        <section id="goal-setting">
+            <h2>Set Your Fitness Goals</h2>
+            <!-- Goal setting form will go here -->
+        </section>
+        <section id="progress-tracking">
+            <h2>Track Your Progress</h2>
+            <!-- Progress tracking components will go here -->
+        </section>
+        <section id="goal-setting">
+            <h2>Set Your Fitness Goals</h2>
+            <form id="goal-form">
+                <select id="goal-type">
+                    <option value="weight-loss">Weight Loss</option>
+                    <option value="muscle-gain">Muscle Gain</option>
+                    <option value="endurance">Endurance</option>
+                    <option value="flexibility">Flexibility</option>
+                </select>
+                <input type="number" id="target" placeholder="Target" required>
+                <button type="submit">Set Goal</button>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Fitness Tracker</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
